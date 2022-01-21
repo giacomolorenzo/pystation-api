@@ -13,8 +13,7 @@ class PlaystationObject:
     language = ""
     date = ""
     type_f = ""
-    hash_h = ""
-    def __init__(self,id_playstation,sconto_per,image,title,description,url,price,discounted_price,category,language,date,type_f,hash_h):
+    def __init__(self,id_playstation,sconto_per,image,title,description,url,price,discounted_price,category,language,date,type_f):
             self.id_playstation = id_playstation 
             self.sconto_per = sconto_per
             self.image = image
@@ -28,4 +27,3 @@ class PlaystationObject:
             self.language = language
             self.date = date
             self.type_f = type_f
-            self.hash_h = hash_h
